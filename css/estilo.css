@@ -40,11 +40,37 @@ nav{
     text-align: center;
 }
 
+.accordion{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.subtitulo{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(98, 190, 160);
+}
+
+.progress{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.nomes_linhas{
+    margin-left: 220px;
+    margin-top: 50px;
+}
+
+.traco{
+    text-align: center;
+}
+
+
 .timeline{
     position: relative;
     margin: 50px auto;
     padding: 40px 0;
-    width: 1000px;
     box-sizing: border-box;
 } 
 
@@ -93,9 +119,9 @@ nav{
     right: -6px;
     width: 10px;
     height: 10px;
-    background: #ffa5ab;
+    background:#ffa5ab;
     border-radius: 50%;
-    box-shadow:  #450920;
+    box-shadow:#450920;
 }
 
 .timeline ul li:nth-child(even):before{
@@ -105,16 +131,16 @@ nav{
     left: -4px;
     width: 10px;
     height: 10px;
-    background: #ffa5ab;
+    background:#ffa5ab;
     border-radius: 50%;
-    box-shadow:  #450920;
+    box-shadow:#450920;
 }
 
 .timeline ul li h3{
     margin: 0;
     padding: 0;
     font-weight: 600;
-    color: #ffa5ab;
+    color:#ffa5ab;
 }
 
 .timeline ul li p{
@@ -128,10 +154,10 @@ nav{
     right: -165px;
     margin: 0;
     padding: 8px 16px;
-    background: #ffa5ab;
+    background:#ffa5ab;
     color: #fff ;
     border-radius: 18px;
-    box-shadow: #450920;
+    box-shadow:#450920;
 } 
 
 .timeline ul li .time h4{
@@ -146,11 +172,13 @@ nav{
     left: -165px;
     margin: 0;
     padding: 8px 16px;
-    background: #ffa5ab;
+    background:#ffa5ab;
     color: #fff ;
     border-radius: 18px;
-    box-shadow: #450920;
+    box-shadow:#450920;
 } 
+
+
 .outros{
     margin-top: 70px;
     text-align: center;
@@ -175,3 +203,10 @@ footer{
     padding: 5%;
 }
 
+
+@media screen and (min-width: 972px){
+    .timeline{
+        width: 1000px;
+    }
+
+}
