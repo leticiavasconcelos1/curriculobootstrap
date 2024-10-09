@@ -1,10 +1,15 @@
-nav{
+.menucor{
     background-color:#4509205c;
   }
 .sobre{
     width: 50%;
     margin-top: 70px;
     margin-left: 100px;
+}
+.carousel-inner{
+    width: 90%;
+    margin-left: 5%;
+
 }
 .sobremim{
     width: 50%;
